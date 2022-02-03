@@ -1,0 +1,280 @@
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+#body{
+    background-image: url("/images/bgimages1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: goldenrod;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+}
+.flexbox
+{
+    display: flex;
+    margin-top: 4.1rem;
+    width:100%;
+    overflow: hidden;
+}
+.flexbox img
+{
+    margin-top: 0px;
+    height: 700px;
+    width: 680px;
+    margin-right: 0px;
+
+}
+.flexbox > .paa
+{
+    margin-top: 1rem;
+    text-align: justify;
+    margin-left: 3.5rem;
+    margin-right: 26px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+
+}
+footer
+{
+    margin-top: 0px;
+    background-color:cadetblue;
+    
+}
+#w
+{
+    margin-left: 1380px;
+    padding-top: 2rem;
+}
+#g
+{
+   margin-left: 1329px;  
+}
+.tri
+{
+    color:red;
+    text-align: center;
+    margin-top: 5.6rem;
+    text-decoration: underline;
+
+}
+.gm{
+ color: green;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.author
+{
+    margin-left: 75rem;
+    color: green;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 1 rem;
+}
+.link{ 
+    border: 0.1rem solid white ;
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: gray;
+}
+.up{
+    color: red;
+    margin-left: 14rem;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+a{
+    font-weight: bold;
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 2rem;
+    margin:0.4rem ;
+    margin-top: 5px;
+} 
+a:hover {
+  color: purple;
+ }
+ a:active{
+     color: magenta;
+ }
+/* Rules for sizing the icon. */
+.material-icons.md-100 {
+    margin-top: 5px; 
+    font-size: 50px;
+    margin-left: 0.1rem;
+    margin-right: 62rem;
+    }
+
+
+
+/*-------------------------------------About page stylesheet-------------------------------------------*/
+.about{
+    color:white;
+    font: 1em sans-serif;
+    text-align: justify;
+    margin: 0 3rem;
+}
+.h{
+      margin: 1rem 3rem;
+      text-decoration: underline; 
+}
+.b{
+    color:goldenrod;
+    background-color: black;
+    }
+
+.table{
+     margin-left:30%;
+     
+}
+table{
+        border-collapse: collapse;
+        margin-top: 1rem;
+        color: white;
+        width: 40rem;
+}
+th{
+    background-color: gray;
+    border: 0.1rem solid whitesmoke;
+}
+td{
+   
+    text-align: center;
+    border: 0.1rem solid whitesmoke;
+    
+}
+.img{
+    width: 5rem;
+    height: 7rem;
+    margin: 1rem;
+}
+#img{
+    margin-left: 650px;
+    margin-top: 1rem;
+}
+#all{
+    margin-top: 6rem;
+}
+
+/*---------------------------------contact us css part--------------------------------------------------*/
+
+#contact{
+    background-color: black;
+}
+
+form{
+    color:aliceblue;
+    margin-left: 35rem;
+    margin-top: 17rem;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+     margin-right: 35rem;
+}
+
+#name{
+    margin: 7px;
+}
+#sub{
+    margin-left: 8rem;
+    color: red;
+    background-color: aqua;
+    size: 30px;
+}
+/*---------------------------------------Awards---------------------------------------------------------*/
+#awa
+{
+  margin-top: 4rem;  
+ background-color: cadetblue;
+    width: 100%;
+}
+.aw
+{
+    
+    color: red;
+    margin-left: 38rem;
+    text-decoration: underline;
+}
+#ao
+{
+    background-color: brown;
+    float: left;
+    border: 1px solid cadetblue;
+    width: 100%;
+    color: greenyellow;
+    margin-top: 0px;
+    
+}
+#aoi
+{
+    float: right;
+}
+
+#at
+{
+    background-color: brown;
+    float: left;
+    width: 100%;
+    border: 1px solid cadetblue;
+    color: greenyellow;
+}
+#ati
+{
+    float: right;
+}
+#ath
+{
+    background-color: brown;
+     float: left;
+    width: 100%;
+    border: 1px solid cadetblue;
+    color: greenyellow;
+}
+#athi
+{
+    float: right;
+}
+#afo
+{
+    background-color: brown;
+     float: left;
+    width: 100%;
+    border: 1px solid cadetblue;
+    color: greenyellow;
+}
+#afoi
+{
+    float: right;
+
+}
+#afi
+{
+    background-color: brown;
+     float: left;
+    width: 100%;
+    border: 1px solid cadetblue;
+    color:greenyellow;
+}
+#afiv
+{
+    float: right;
+}
+#asix
+{
+    background-color: brown;
+     float: left;
+    width: 100%;
+    border: 1px solid cadetblue;
+    color: greenyellow;
+}
+#asixi
+{
+    float: right;
+}
